@@ -11,5 +11,10 @@
     "spawn"
   ],
   "author": "Connor Taylor",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "webpack": "^1.12.13"
+  }
 }
