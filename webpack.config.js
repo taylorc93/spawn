@@ -26,6 +26,9 @@ module.exports = {
   ],
   resolve: {
     extensions: ['', '.js', '.jsx'],
+    alias: {
+      'utils': path.resolve(__dirname, 'lib', 'utils')
+    }
   },
   target: 'node',
   module: {

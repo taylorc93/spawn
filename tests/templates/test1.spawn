@@ -1,0 +1,9 @@
+<Foo language="python" 
+	data="meh">
+	<Bar>
+		<Baz>
+		</Baz>
+		<Wat>
+		</Wat>
+	</Bar>
+</Foo>
