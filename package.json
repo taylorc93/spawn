@@ -13,6 +13,14 @@
   "author": "Connor Taylor",
   "license": "MIT",
   "devDependencies": {
-    
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }

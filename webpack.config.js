@@ -18,6 +18,10 @@ module.exports = {
       compress: {
           warnings: false
       }
+    }),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+      '__DEV__': true
     })
   ],
   resolve: {
@@ -30,8 +34,8 @@ module.exports = {
         test: /\.js?$/,
         loader: 'babel',
         query: {
-          presets: ['es2015', "stage-0", "stage-1"],
-          plugins: ['transform-runtime'],
+          presets: ['es2015', "stage-0"],
+          plugins: ['transform-runtime']
         },
         exclude: /node_modules/
       }
